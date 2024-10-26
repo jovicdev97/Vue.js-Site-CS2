@@ -1,0 +1,337 @@
+{
+  "Utopia": {
+    "US1SurfUtopia": {
+      "number": 4,
+      "status": {
+        "de": "ONLINE",
+        "en": "ONLINE"
+      },
+      "name": {
+        "de": "Utopia US#1 !skins !knife",
+        "en": "Utopia US#1 !skins !knife"
+      },
+      "flag": "usa",
+      "connectLink": "steam://connect/5.161.92.40:27015",
+      "banner": "/utopia.png"
+    },
+    "US2SurfUtopia": {
+      "number": 6,
+      "status": {
+        "de": "ONLINE",
+        "en": "ONLINE"
+      },
+      "name": {
+        "de": "Utopia US#2 !skins !knife",
+        "en": "Utopia US#2 !skins !knife"
+      },
+      "flag": "usa",
+      "connectLink": "steam://connect/5.161.216.93:27015",
+      "banner": "/utopia.png"
+    },
+    "US3SurfUtopia": {
+      "number": 2,
+      "status": {
+        "de": "ONLINE",
+        "en": "ONLINE"
+      },
+      "name": {
+        "de": "Utopia US#3 !skins !knife",
+        "en": "Utopia US#3 !skins !knife"
+      },
+      "flag": "usa",
+      "connectLink": "steam://connect/5.161.181.243:27015",
+      "banner": "/utopia.png"
+    },
+    "EUSurfUtopia": {
+      "number": 19,
+      "status": {
+        "de": "ONLINE",
+        "en": "ONLINE"
+      },
+      "name": {
+        "de": "Utopia EU !skins !knife",
+        "en": "Utopia EU !skins !knife"
+      },
+      "flag": "german usa",
+      "connectLink": "steam://connect/128.140.106.242:27021",
+      "banner": "/utopia.png"
+    }
+  },
+  "Kitsune": {
+    "US1SurfKitsune": {
+      "number": 5,
+      "status": {
+        "de": "ONLINE",
+        "en": "ONLINE"
+      },
+      "name": {
+        "de": "Kitsune US#1 !skins !knife",
+        "en": "Kitsune US#1 !skins !knife"
+      },
+      "flag": "usa",
+      "connectLink": "steam://connect/5.161.92.40:27016",
+      "banner": "/surfkitsune.png"
+    },
+    "US2SurfKitsune": {
+      "number": 7,
+      "status": {
+        "de": "ONLINE",
+        "en": "ONLINE"
+      },
+      "name": {
+        "de": "Kitsune US#2 !skins !knife",
+        "en": "Kitsune US#2 !skins !knife"
+      },
+      "flag": "usa",
+      "connectLink": "steam://connect/5.161.216.93:27016",
+      "banner": "/surfkitsune.png"
+    },
+    "US3SurfKitsune": {
+      "number": 1,
+      "status": {
+        "de": "ONLINE",
+        "en": "ONLINE"
+      },
+      "name": {
+        "de": "Kitsune US#3 !skins !knife",
+        "en": "Kitsune US#3 !skins !knife"
+      },
+      "flag": "usa",
+      "connectLink": "steam://connect/5.161.181.243:27016",
+      "banner": "/surfkitsune.png"
+    },
+    "EUSurfKitsune": {
+      "number": 20,
+      "status": {
+        "de": "ONLINE",
+        "en": "ONLINE"
+      },
+      "name": {
+        "de": "Kitsune EU !skins !knife",
+        "en": "Kitsune EU !skins !knife"
+      },
+      "flag": "german usa",
+      "connectLink": "steam://connect/128.140.106.242:27023",
+      "banner": "/surfkitsune.png"
+    }
+  },
+  "Mesa": {
+    "USMixedMesa": {
+      "number": 9,
+      "status": {
+        "de": "ONLINE",
+        "en": "ONLINE"
+      },
+      "name": {
+        "de": "MESA US !skins !knife",
+        "en": "MESA US !skins !knife"
+      },
+      "flag": "usa",
+      "connectLink": "steam://connect/5.161.195.9:27016",
+      "banner": "/mesa.png"
+    }
+  },
+  "Rookie": {
+    "USRookie": {
+      "number": 13,
+      "status": {
+        "de": "ONLINE",
+        "en": "ONLINE"
+      },
+      "name": {
+        "de": "Rookie US !skins !knife",
+        "en": "Rookie US !skins !knife"
+      },
+      "flag": "usa",
+      "connectLink": "steam://connect/5.161.230.7:27018",
+      "banner": "/rookie.png"
+    },
+    "EUSurfRookie": {
+      "number": 18,
+      "status": {
+        "de": "ONLINE",
+        "en": "ONLINE"
+      },
+      "name": {
+        "de": "Rookie EU !skins !knife",
+        "en": "Rookie EU !skins !knife"
+      },
+      "flag": "german usa",
+      "connectLink": "steam://connect/128.140.106.242:27017",
+      "banner": "/rookie.png"
+    }
+  },
+  "Nyx": {
+    "USNyx": {
+      "number": 10,
+      "status": {
+        "de": "ONLINE",
+        "en": "ONLINE"
+      },
+      "name": {
+        "de": "Nyx US !skins !knife",
+        "en": "Nyx US !skins !knife"
+      },
+      "flag": "usa",
+      "connectLink": "steam://connect/5.161.230.7:27015",
+      "banner": "/nyx.png"
+    }
+  },
+  "Others": {
+    "USSurfUncapped": {
+      "number": 3,
+      "status": {
+        "de": "ONLINE",
+        "en": "ONLINE"
+      },
+      "name": {
+        "de": "Surf Uncapped Speed US !skins !knife",
+        "en": "Surf Uncapped Speed !skins !knife"
+      },
+      "flag": "usa",
+      "connectLink": "steam://connect/5.161.216.93:27017",
+      "banner": "/mix.png"
+    },
+    "US2Mixed": {
+      "number": 8,
+      "status": {
+        "de": "ONLINE",
+        "en": "ONLINE"
+      },
+      "name": {
+        "de": "Mixed US#2 !skins !knife",
+        "en": "Mixed US#2 !skins !knife"
+      },
+      "flag": "usa",
+      "connectLink": "steam://connect/5.161.195.9:27015",
+      "banner": "/mix.png"
+    },
+    "USParadise": {
+      "number": 11,
+      "status": {
+        "de": "ONLINE",
+        "en": "ONLINE"
+      },
+      "name": {
+        "de": "Surf Paradise US !skins !knife",
+        "en": "Surf Paradise US !skins !knife"
+      },
+      "flag": "usa",
+      "connectLink": "steam://connect/5.161.230.7:27016",
+      "banner": "/mix4.png"
+    },
+    "USMixedWS": {
+      "number": 12,
+      "status": {
+        "de": "ONLINE",
+        "en": "ONLINE"
+      },
+      "name": {
+        "de": "Mixed US#1 !skins !knife",
+        "en": "Mixed US#1 !skins !knife"
+      },
+      "flag": "usa",
+      "connectLink": "steam://connect/5.161.230.7:27017",
+      "banner": "/mix.png"
+    },
+    "USAce": {
+      "number": 14,
+      "status": {
+        "de": "ONLINE",
+        "en": "ONLINE"
+      },
+      "name": {
+        "de": "Surf Ace US",
+        "en": "[US] 24/7 Ace !skins !knife !ws CS2-SURF.COM"
+      },
+      "flag": "usa",
+      "connectLink": "steam://connect/5.161.195.9:27017",
+      "banner": "/ace.png"
+    },
+    "USNation": {
+      "number": 15,
+      "status": {
+        "de": "ONLINE",
+        "en": "ONLINE"
+      },
+      "name": {
+        "de": "Surf NATION US !skins !knife",
+        "en": "Surf NATION US !skins !knife"
+      },
+      "flag": "usa",
+      "connectLink": "steam://connect/5.161.181.243:27017",
+      "banner": "/mix4.png"
+    },
+    "USHaven": {
+      "number": 16,
+      "status": {
+        "de": "ONLINE",
+        "en": "ONLINE"
+      },
+      "name": {
+        "de": "Surf Haven US !skins !knife",
+        "en": "Surf Haven US !skins !knife"
+      },
+      "flag": "usa",
+      "connectLink": "steam://connect/5.161.230.7:27019",
+      "banner": "/mix3.png"
+    },
+    "EUSurfHaven": {
+      "number": 17,
+      "status": {
+        "de": "ONLINE",
+        "en": "ONLINE"
+      },
+      "name": {
+        "de": "Surf Haven EU !skins !knife",
+        "en": "Surf Haven EU !skins !knife"
+      },
+      "flag": "german usa",
+      "connectLink": "steam://connect/128.140.106.242:27016",
+      "banner": "/mix3.png"
+    },
+    "EUSurfGermany": {
+      "number": 21,
+      "status": {
+        "de": "ONLINE",
+        "en": "ONLINE"
+      },
+      "name": {
+        "de": "Surf Germany !skins !knife",
+        "en": "Surf Germany !skins !knife"
+      },
+      "flag": "german",
+      "connectLink": "steam://connect/128.140.106.242:27018",
+      "banner": "/mix4.png"
+    },
+    "EASYSurf EU": {
+      "number": 254,
+      "status": {
+        "de": "ONLINE",
+        "en": "ONLINE"
+      },
+      "name": {
+        "de": "EASYSurf EU !skins !knife",
+        "en": "EASYSurf EU !skins !knife"
+      },
+      "flag": "german usa",
+      "connectLink": "steam://connect/5.161.92.40:27017",
+      "banner": "/mix2.png"
+    },
+    "EASYSurf US": {
+      "number": 200,
+      "status": {
+        "de": "ONLINE",
+        "en": "ONLINE"
+      },
+      "name": {
+        "de": "EASYSurf US !skins !knife",
+        "en": "EASYSurf US !skins !knife"
+      },
+      "flag": "usa",
+      "connectLink": "steam://connect/5.161.92.40:27017",
+      "banner": "/mix2.png"
+    }
+
+  }
+}

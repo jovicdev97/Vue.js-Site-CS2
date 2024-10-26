@@ -1,0 +1,19 @@
+{
+  "TimelineItems": [
+    {
+      "time": "2023",
+      "title": "Veröffentlichung der CS2-Server",
+      "body": "Deutscher Text hier"
+    },
+    {
+      "time": "Mitte 2023",
+      "title": "Update TTT",
+      "body": "Deutscher Text hier"
+    },
+    {
+      "time": "Ende 2023",
+      "title": "Update Jail",
+      "body": "Deutscher Text hier"
+    }
+  ]
+}
