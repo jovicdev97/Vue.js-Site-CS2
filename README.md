@@ -44,3 +44,13 @@ npm run build
 ```sh
 npm run lint
 ```
+
+![screen]([https://example.com/pfad/zum/bild.jpg](http://i.epvpimg.com/QGogcab.png))
+
+features:
+
+-responsive
+-vanilla vue
+
+sorry for messy code i focused on glows
+
