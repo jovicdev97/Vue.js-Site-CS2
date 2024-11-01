@@ -1,22 +1,22 @@
 <template>
   <div class="relative z-10 bg-gradient-to-r from-gray-800 to-gray-900 text-white neon-glow">
-    <div class="container mx-auto px-4 py-6 flex flex-wrap items-center justify-between">
-      <div class="flex items-center space-x-4">
-        <a href="https://example.com" class="transform hover:scale-110 transition-transform duration-300 ease-in-out">
+    <div class="container mx-auto px-4 py-6 flex items-center justify-center relative">
+      <div class="absolute left-0 flex items-center space-x-4">
+        <a href="https://google.com" class="transform hover:scale-110 transition-transform duration-300 ease-in-out">
           <img src="@/assets/discord.png" alt="Discord" class="icon-glow w-8 transform hover:scale-110 transition-transform duration-300 ease-in-out" />
         </a>
-        <a href="https://example.com" class="transform hover:scale-110 transition-transform duration-300 ease-in-out">
+        <a href="https://google.com" class="transform hover:scale-110 transition-transform duration-300 ease-in-out">
           <img src="@/assets/steam.png" alt="Steam" class="icon-glow w-8 transform hover:scale-110 transition-transform duration-300 ease-in-out" />
         </a>
       </div>
       
-      <RouterLink to="/" style="display: inline-block; margin: 0; padding-right: 0%; padding-left:1.5%">
+      <RouterLink to="/" style="display: inline-block;">
         <MyLogo v-if="!isMobile" />
       </RouterLink>
-      
-      <div class="menu-links ml-6">
-        <a href="https://example.com" class="hover:underline">Link 1</a>
-        <a href="https://example.com" class="hover:underline">Link 2</a>
+
+      <div class="absolute right-0 flex items-center space-x-4">
+        <a href="https://google.com" class="hover:underline">Link 1</a>
+        <a href="https://google.com" class="hover:underline">Link 2</a>
       </div>
       
       <div class="md:hidden flex items-center">
@@ -28,8 +28,8 @@
       </div>
       
       <div v-if="isOpen" class="w-full md:hidden mt-2 animate__animated animate__fadeIn">
-        <a href="https://example.com" class="block mt-2 hover:underline">Dropdown Link 1</a>
-        <a href="https://example.com" class="block mt-2 hover:underline">Dropdown Link 2</a>
+        <a href="https://google.com" class="block mt-2 hover:underline">Dropdown Link 1</a>
+        <a href="https://google.com" class="block mt-2 hover:underline">Dropdown Link 2</a>
       </div>
     </div>
   </div>
@@ -81,9 +81,20 @@ export default {
     0 0 35px rgba(153, 50, 204, 0.7);
 }
 .neon-glow::before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
   left: 0;
-  width: calc(50% - 0.5%);
-  background: linear-gradient(45deg, #9932CC, #FF69B4);
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, #9932CC, #FF69B4);
+  box-shadow:
+    0 0 5px rgba(255, 105, 180, 0.7),
+    0 0 10px rgba(255, 105, 180, 0.7),
+    0 0 15px rgba(153, 50, 204, 0.7),
+    0 0 20px rgba(153, 50, 204, 0.7),
+    0 0 25px rgba(153, 50, 204, 0.7),
+    0 0 35px rgba(153, 50, 204, 0.7);
 }
 .neon-glow::after {
   right: 0;
