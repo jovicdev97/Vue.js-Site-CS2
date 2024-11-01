@@ -45,6 +45,7 @@ body {
 }
 .fire {
   position: relative;
+  z-index: 999;
   top: calc(50%);
   left: calc(50%);
   width: 80px;
