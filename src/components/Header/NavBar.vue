@@ -1,6 +1,6 @@
 <template>
   <div class="relative z-10 bg-gradient-to-r from-gray-800 to-gray-900 text-white neon-glow">
-    <div class="w-full mx-auto py-6 flex items-center justify-center relative">
+    <div class="container mx-auto px-4 py-6 flex items-center justify-center relative">
       <div class="absolute left-0 flex items-center space-x-4">
         <a href="https://google.com" class="transform hover:scale-110 transition-transform duration-300 ease-in-out">
           <img src="@/assets/discord.png" alt="Discord" class="icon-glow w-8 transform hover:scale-110 transition-transform duration-300 ease-in-out" />
@@ -9,7 +9,7 @@
           <img src="@/assets/steam.png" alt="Steam" class="icon-glow w-8 transform hover:scale-110 transition-transform duration-300 ease-in-out" />
         </a>
       </div>
-      
+
       <RouterLink to="/" style="display: inline-block;">
         <MyLogo v-if="!isMobile" />
       </RouterLink>
@@ -18,7 +18,7 @@
         <a href="https://google.com" class="hover:underline">Link 1</a>
         <a href="https://google.com" class="hover:underline">Link 2</a>
       </div>
-      
+
       <div class="md:hidden flex items-center">
         <button @click="toggleMenu">
           <svg :class="{ 'rotate': isOpen }" class="w-6 h-6 text-white transform transition-transform ease-in-out duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -26,7 +26,7 @@
           </svg>
         </button>
       </div>
-      
+
       <div v-if="isOpen" class="w-full md:hidden mt-2 animate__animated animate__fadeIn">
         <a href="https://google.com" class="block mt-2 hover:underline">Dropdown Link 1</a>
         <a href="https://google.com" class="block mt-2 hover:underline">Dropdown Link 2</a>
@@ -34,16 +34,18 @@
     </div>
   </div>
 </template>
+
 <script>
 import MyLogo from './MyLogo.vue';
+
 export default {
   components: {
-    MyLogo
+    MyLogo,
   },
   data() {
     return {
-       isOpen: false,
-      isMobile: window.innerWidth <= 768
+      isOpen: false,
+      isMobile: window.innerWidth <= 768,
     };
   },
   mounted() {
@@ -61,10 +63,11 @@ export default {
     },
     checkIfMobile() {
       this.isMobile = window.innerWidth <= 768;
-    }
-  }
+    },
+  },
 };
 </script>
+
 <style scoped>
 .neon-glow::before,
 .neon-glow::after {
@@ -81,32 +84,19 @@ export default {
     0 0 35px rgba(153, 50, 204, 0.7);
 }
 .neon-glow::before {
-  content: "";
-  position: absolute;
-  bottom: -10px;
   left: 0;
   width: 100%;
-  height: 1px;
   background: linear-gradient(90deg, #9932CC, #FF69B4);
-  box-shadow:
-    0 0 5px rgba(255, 105, 180, 0.7),
-    0 0 10px rgba(255, 105, 180, 0.7),
-    0 0 15px rgba(153, 50, 204, 0.7),
-    0 0 20px rgba(153, 50, 204, 0.7),
-    0 0 25px rgba(153, 50, 204, 0.7),
-    0 0 35px rgba(153, 50, 204, 0.7);
 }
 .neon-glow::after {
   right: 0;
   width: calc(50% - 1.3%);
   background: linear-gradient(45deg, #FF69B4, #9932CC);
 }
-@media (max-width: 1000px){
-.neon-glow::after {
-  right: 0;
-  width: calc(50% + 0.1%);
-  background: linear-gradient(45deg, #FF69B4, #9932CC);
-}
+@media (max-width: 1000px) {
+  .neon-glow::after {
+    width: calc(50% + 0.1%);
+  }
 }
 @media (max-width: 768px) {
   .neon-glow::before,

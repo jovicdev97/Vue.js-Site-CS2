@@ -59,6 +59,7 @@
 export default {
   name: "AppFooter",
 };
+console.log("hire me :D k. sch.")
 </script>
 <style scoped>
 .neon-glow::before,
