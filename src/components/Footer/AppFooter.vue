@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="relative z-10 bg-gradient-to-r from-121212 to-0d0d0d text-gray-300 py-12 neon-glow"
+    class="relative z-10 bg-gradient-to-r from-[#121212] to-[#0d0d0d] text-gray-300 py-12 neon-glow"
   >
     <div class="container mx-auto px-4">
       <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -8,32 +8,21 @@
           <h4 class="text-lg font-semibold text-white mb-3">The future of surf</h4>
           <div class="border-t-4 border-purple-600 w-full mt-3 mb-3"></div>
           <ul>
-    <li><a href="http:
-    <li><a href="http:
-    <li><a href="http:
-    <li><a href="http:
-</ul>
+            <li><a href="http://example.com" class="hover:underline">Link 1</a></li>
+            <li><a href="http://example.com" class="hover:underline">Link 2</a></li>
+            <li><a href="http://example.com" class="hover:underline">Link 3</a></li>
+            <li><a href="http://example.com" class="hover:underline">Link 4</a></li>
+          </ul>
         </div>
-        <div
-          class="p-4 rounded-md hover:shadow-lg transition-all duration-300 md:block hidden"
-        >
+        <div class="p-4 rounded-md hover:shadow-lg transition-all duration-300 md:block hidden">
           <h4 class="text-lg font-semibold text-white mb-3">Menu</h4>
           <div class="border-t-4 border-purple-600 w-full mt-3 mb-3"></div>
           <ul class="space-y-2">
             <div class="vertical-links">
               <RouterLink to="/" class="hover:underline">Home</RouterLink>
-              <RouterLink to="/impressum" class="hover:underline"
-                >Imprint</RouterLink
-              >
-              <RouterLink to="/dataprivacy" class="hover:underline"
-                >Data Privacy</RouterLink
-              >
-                            <a
-                  href="forum.cs2-surf.com/"
-                  target="_blank"
-                  class="text-white hover:text-gray-200"
-                  >Forum</a
-                >
+              <RouterLink to="/impressum" class="hover:underline">Imprint</RouterLink>
+              <RouterLink to="/dataprivacy" class="hover:underline">Data Privacy</RouterLink>
+              <a href="http://forum.cs2-surf.com/" target="_blank" class="text-white hover:text-gray-200">Forum</a>
             </div>
           </ul>
         </div>
@@ -41,16 +30,10 @@
           <h4 class="text-lg font-semibold text-white mb-3">Community</h4>
           <div class="border-t-4 border-purple-600 w-full mt-3 mb-3 pb-3"></div>
           <div class="flex space-x-4">
-            <a href="https:
-              class="transform hover:scale-110 transition-transform duration-300">
+            <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="transform hover:scale-110 transition-transform duration-300">
               <img src="@/assets/steam.png" alt="Steam Icon" class="w-8" />
             </a>
-            <a
-              href="https:
-              target="_blank"
-              rel="noopener noreferrer"
-              class="transform hover:scale-110 transition-transform duration-300"
-            >
+            <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="transform hover:scale-110 transition-transform duration-300">
               <img src="@/assets/discord.png" alt="Discord Icon" class="w-8" />
             </a>
           </div>
@@ -71,6 +54,7 @@
     </div>
   </footer>
 </template>
+
 <script>
 export default {
   name: "AppFooter",

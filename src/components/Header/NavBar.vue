@@ -2,39 +2,38 @@
   <div class="relative z-10 bg-gradient-to-r from-gray-800 to-gray-900 text-white neon-glow">
     <div class="container mx-auto px-4 py-6 flex flex-wrap items-center justify-between">
       <div class="flex items-center space-x-4">
-        <a href="https:
-          class="transform hover:scale-110 transition-transform duration-300 ease-in-out">
-          <img src="@/assets/discord.png" alt="Discord"
-            class="icon-glow w-8 transform hover:scale-110 transition-transform duration-300 ease-in-out" />
+        <a href="https://example.com" class="transform hover:scale-110 transition-transform duration-300 ease-in-out">
+          <img src="@/assets/discord.png" alt="Discord" class="icon-glow w-8 transform hover:scale-110 transition-transform duration-300 ease-in-out" />
         </a>
-        <a href="https:
-          class="transform hover:scale-110 transition-transform duration-300 ease-in-out">
-          <img src="@/assets/steam.png" alt="Steam"
-            class="icon-glow w-8 transform hover:scale-110 transition-transform duration-300 ease-in-out" />
+        <a href="https://example.com" class="transform hover:scale-110 transition-transform duration-300 ease-in-out">
+          <img src="@/assets/steam.png" alt="Steam" class="icon-glow w-8 transform hover:scale-110 transition-transform duration-300 ease-in-out" />
         </a>
       </div>
+      
       <RouterLink to="/" style="display: inline-block; margin: 0; padding-right: 0%; padding-left:1.5%">
         <MyLogo v-if="!isMobile" />
       </RouterLink>
-  <div class="menu-links ml-6">
-    <a href="https:
-    <a href="https:
-  </div>
+      
+      <div class="menu-links ml-6">
+        <a href="https://example.com" class="hover:underline">Link 1</a>
+        <a href="https://example.com" class="hover:underline">Link 2</a>
+      </div>
+      
       <div class="md:hidden flex items-center">
         <button @click="toggleMenu">
-          <svg :class="{ 'rotate': isOpen }"
-            class="w-6 h-6 text-white transform transition-transform ease-in-out duration-300" fill="none"
-            stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          <svg :class="{ 'rotate': isOpen }" class="w-6 h-6 text-white transform transition-transform ease-in-out duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
           </svg>
         </button>
       </div>
+      
       <div v-if="isOpen" class="w-full md:hidden mt-2 animate__animated animate__fadeIn">
-        <a href="https:
-    <a href="https:
+        <a href="https://example.com" class="block mt-2 hover:underline">Dropdown Link 1</a>
+        <a href="https://example.com" class="block mt-2 hover:underline">Dropdown Link 2</a>
       </div>
     </div>
-</div></template>
+  </div>
+</template>
 <script>
 import MyLogo from './MyLogo.vue';
 export default {
