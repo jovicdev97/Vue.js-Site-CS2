@@ -1,6 +1,6 @@
 <template>
   <div class="relative z-10 bg-gradient-to-r from-gray-800 to-gray-900 text-white neon-glow">
-    <div class="container mx-auto px-4 py-6 flex items-center justify-center relative">
+    <div class="w-full mx-auto py-6 flex items-center justify-center relative">
       <div class="absolute left-0 flex items-center space-x-4">
         <a href="https://google.com" class="transform hover:scale-110 transition-transform duration-300 ease-in-out">
           <img src="@/assets/discord.png" alt="Discord" class="icon-glow w-8 transform hover:scale-110 transition-transform duration-300 ease-in-out" />
