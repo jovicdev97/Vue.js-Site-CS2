@@ -45,7 +45,7 @@ npm run build
 npm run lint
 ```
 
-![screen]([https://example.com/pfad/zum/bild.jpg](http://i.epvpimg.com/QGogcab.png)
+![screen](http://i.epvpimg.com/QGogcab.png)
 
 features:
 
