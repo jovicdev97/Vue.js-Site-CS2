@@ -44,8 +44,9 @@ npm run build
 ```sh
 npm run lint
 ```
+# Preview
 
-![screen](http://i.epvpimg.com/QGogcab.png)
+![screen](http://i.epvpimg.com/JJ2keab.png)
 
 features:
 
