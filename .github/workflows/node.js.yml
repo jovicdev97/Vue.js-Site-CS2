@@ -1,51 +1,33 @@
-# Name der GitHub Action-Pipeline
-name: Build and Deploy
+# name: Build and Deploy
 
-# Definiert, wann die Action ausgeführt wird (hier: bei Pushes zum master-Branch)
-on:
-  push:
-    branches:
-      - main
+# on:
+#   push:
+#     branches:
+#       - main
 
-# Jobs, die in der Pipeline ausgeführt werden
-jobs:
-  # Einzelner Job für den Build und das Deployment
-  build-and-deploy:
-    # Verwendet das neueste Ubuntu-Image
-    runs-on: ubuntu-latest
-
-    # Schritte, die im Job ausgeführt werden
-    steps:
-      # Checkt den aktuellen Code aus dem Repository aus
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      # Installiert Node.js Version 14.x
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: "18.15.0"
-
-      # Installiert die npm-Abhängigkeiten
-      - name: Install Dependencies
-        run: npm ci
-
-      # Baut das Vue.js-Projekt
-      - name: Build Project
-        run: npm run build
-
-      # Lädt den /dist-Ordner auf den FTP-Server hoch
-      - name: FTP Deploy
-        uses: SamKirkland/FTP-Deploy-Action@4.0.0
-        with:
-          server: ${{ secrets.serverhost }} # URL Ihres FTP-Servers
-          username: ${{ secrets.username }} # FTP-Benutzername als GitHub-Secret
-          password: ${{ secrets.password }} # FTP-Passwort als GitHub-Secret
-          protocol: ftps
-          server-dir: /htdocs/website/ # Zielverzeichnis auf dem FTP-Server
-          local-dir: ./dist/ # Local Dir
-
-      # Fängt Fehler ab, wenn einer der vorherigen Schritte fehlschlägt
-      - name: Catch step
-        if: failure()
-        run: echo "The job has failed."
+# jobs:
+#   build-and-deploy:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v2
+#       - name: Setup Node.js
+#         uses: actions/setup-node@v2
+#         with:
+#           node-version: "18.15.0"
+#       - name: Install Dependencies
+#         run: npm ci
+#       - name: Build Project
+#         run: npm run build
+#       - name: FTP Deploy
+#         uses: SamKirkland/FTP-Deploy-Action@4.0.0
+#         with:
+#           server: ${{ secrets.serverhost }}
+#           username: ${{ secrets.username }}
+#           password: ${{ secrets.password }}
+#           protocol: ftps
+#           server-dir: /htdocs/website/
+#           local-dir: ./dist/
+#       - name: Catch step
+#         if: failure()
+#         run: echo "The job has failed."
