@@ -2,7 +2,7 @@
 import { Accordion, AccordionPanel, AccordionHeader, AccordionContent } from 'flowbite-vue'
 import Timeline from './AccordionTimeline.vue'
 import Progress from './AccordionProgress.vue'
-import AccordionWiki from './AccordionWiki.vue'
+/* import AccordionWiki from './AccordionWiki.vue' */
 import ScrollToTop from './ScrollToTop.vue';
 </script>
 <template>

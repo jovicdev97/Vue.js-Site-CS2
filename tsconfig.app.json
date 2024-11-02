@@ -6,11 +6,6 @@
     "composite": true,
     "baseUrl": ".",
     "allowJs": true,
-      "include": [
-    "env.d.ts",
-    "src/**/*",
-    "src/**/*.vue"
-  ],
     "paths": {
       "@/*": ["./src/*"]
     }
